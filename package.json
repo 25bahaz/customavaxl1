@@ -1,0 +1,25 @@
+{
+  "name": "customavaxl1",
+  "version": "1.0.0",
+  "description": "This repository is about launching configurable Avalanche L1 blockchains, which includes allowlist interfaces, custom node configurations, and custom genesis files",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/25bahaz/customavaxl1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/25bahaz/customavaxl1/issues"
+  },
+  "homepage": "https://github.com/25bahaz/customavaxl1#readme",
+  "dependencies": {
+    "ethers": "^6.15.0",
+    "fs": "^0.0.1-security"
+  }
+}
