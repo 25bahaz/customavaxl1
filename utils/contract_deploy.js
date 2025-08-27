@@ -21,4 +21,4 @@ async function ContractDeployer(rpc , pk, binPath, abiPath) {
     return contract;
 };
 
-exports = { ContractDeployer }
+export { ContractDeployer }
