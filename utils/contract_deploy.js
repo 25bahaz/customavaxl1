@@ -3,12 +3,18 @@ import { readFileSync } from 'fs';
 import { JsonRpcProvider,} from 'ethers/providers';
 import { Wallet } from 'ethers/wallet';
 import { ContractFactory } from 'ethers';
+import dotenv from 'dotenv';
 
+dotenv.config();
 
-const provider = new JsonRpcProvider("http://34.255.227.109:37575/ext/bc/2KLgZ13cVF9siHrY1cjp5ZZNHjZA22KYB6ngEUsB9BSr2qasEV/rpc");
+// CONSTANTS
+const PRIVATE_KEY = process.env.PRIVATE_KEY;  // prefix yok
+const RPC_URL = process.env.RPC_URL;
+
+const provider = new JsonRpcProvider(RPC_URL);
 const bytecode = readFileSync("<bin>").toString();
 const abi = JSON.parse(readFileSync("<abi>").toString());
-const privateKey = "YOUR_PRIVATE_KEY"; // prefix yok
-const signer = new Wallet(privateKey, provider).connect(provider);
+;
+const signer = new Wallet(PRIVATE_KEY, provider).connect(provider);
 const tokenContract = new ContractFactory(abi, bytecode, signer);
 const contract = await tokenContract.deploy();

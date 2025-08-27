@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/25bahaz/customavaxl1#readme",
   "dependencies": {
+    "dotenv": "^17.2.1",
     "ethers": "^6.15.0",
     "fs": "^0.0.1-security"
   }
