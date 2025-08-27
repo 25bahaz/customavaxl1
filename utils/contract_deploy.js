@@ -1,11 +1,11 @@
+import dotenv from 'dotenv';
+dotenv.config();
+
 import { readFileSync } from 'fs';
 
 import { JsonRpcProvider,} from 'ethers/providers';
 import { Wallet } from 'ethers/wallet';
 import { ContractFactory } from 'ethers';
-import dotenv from 'dotenv';
-
-dotenv.config();
 
 // CONSTANTS
 const PRIVATE_KEY = process.env.PRIVATE_KEY;  // prefix yok
@@ -19,3 +19,5 @@ const abi = JSON.parse(readFileSync("<abi>").toString());
 
 const tokenContract = new ContractFactory(abi, bytecode, signer);
 const contract = await tokenContract.deploy();
+
+console.log("Contract deployed to address:", contract.address);
