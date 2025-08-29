@@ -1,0 +1,28 @@
+{
+  "UUID": "b246de62-274d-4f7e-a115-3b5840272016",
+  "Owner": "",
+  "DefaultFlags": {
+    "api-admin-enabled": true,
+    "health-check-frequency": "2s",
+    "http-host": "0.0.0.0",
+    "index-enabled": true,
+    "log-display-level": "OFF",
+    "log-level": "DEBUG",
+    "log-rotater-max-files": 2,
+    "log-rotater-max-size": 1,
+    "min-stake-duration": "1s",
+    "network-max-reconnect-delay": "1s",
+    "network-peer-list-pull-gossip-frequency": "250ms",
+    "plugin-dir": "/home/ubuntu/.avalanche-cli/plugins",
+    "proposervm-min-block-delay": "0s",
+    "proposervm-use-current-height": true,
+    "public-ip": "34.255.227.109",
+    "staking-host": "0.0.0.0",
+    "upgrade-file-content": "ewogICJhcHJpY290UGhhc2UxVGltZSI6ICIyMDIwLTEyLTA1VDA1OjAwOjAwWiIsCiAgImFwcmljb3RQaGFzZTJUaW1lIjogIjIwMjAtMTItMDVUMDU6MDA6MDBaIiwKICAiYXByaWNvdFBoYXNlM1RpbWUiOiAiMjAyMC0xMi0wNVQwNTowMDowMFoiLAogICJhcHJpY290UGhhc2U0VGltZSI6ICIyMDIwLTEyLTA1VDA1OjAwOjAwWiIsCiAgImFwcmljb3RQaGFzZTRNaW5QQ2hhaW5IZWlnaHQiOiAwLAogICJhcHJpY290UGhhc2U1VGltZSI6ICIyMDIwLTEyLTA1VDA1OjAwOjAwWiIsCiAgImFwcmljb3RQaGFzZVByZTZUaW1lIjogIjIwMjAtMTItMDVUMDU6MDA6MDBaIiwKICAiYXByaWNvdFBoYXNlNlRpbWUiOiAiMjAyMC0xMi0wNVQwNTowMDowMFoiLAogICJhcHJpY290UGhhc2VQb3N0NlRpbWUiOiAiMjAyMC0xMi0wNVQwNTowMDowMFoiLAogICJiYW5mZlRpbWUiOiAiMjAyMC0xMi0wNVQwNTowMDowMFoiLAogICJjb3J0aW5hVGltZSI6ICIyMDIwLTEyLTA1VDA1OjAwOjAwWiIsCiAgImNvcnRpbmFYQ2hhaW5TdG9wVmVydGV4SUQiOiAiMTExMTExMTExMTExMTExMTExMTExMTExMTExMTExMTFMcG9ZWSIsCiAgImR1cmFuZ29UaW1lIjogIjIwMjAtMTItMDVUMDU6MDA6MDBaIiwKICAiZXRuYVRpbWUiOiAiMjAyNC0xMC0wOVQyMDowMDowMFoiCn0K"
+  },
+  "DefaultRuntimeConfig": {
+    "AvalancheGoPath": "/home/ubuntu/.avalanche-cli/bin/avalanchego/avalanchego-v1.13.4/avalanchego",
+    "ReuseDynamicPorts": false
+  },
+  "PreFundedKeys": null
+}

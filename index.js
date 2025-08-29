@@ -27,7 +27,6 @@ const binPath = path.join(__dirname, 'contracts/bin/storage.bin');
 // writeFileSync(outputPath, jsonContract, "utf8");
 
 //--contract call
-let functOption = 'retrieve';
-const callResult = await ContractCaller(RPC_URL, PRIVATE_KEY, abiPath, CONTRACT_ADDRESS, functOption, 25);
-
-console.log(callResult);
+// let functOption = 'retrieve';
+// const callResult = await ContractCaller(RPC_URL, PRIVATE_KEY, abiPath, CONTRACT_ADDRESS, functOption, 128);
+// console.log(callResult);

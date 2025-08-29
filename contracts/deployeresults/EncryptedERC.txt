@@ -1,0 +1,15 @@
+npx hardhat run scripts/deploy-standalone.ts --network avax
+✖ Help us improve Hardhat with anonymous crash reports & basic usage data? (Y/n) · y
+Downloading compiler 0.8.27
+Compiled 43 Solidity files successfully (evm target: paris).
+┌──────────────────────┬──────────────────────────────────────────────┐
+│ (index)              │ Values                                       │
+├──────────────────────┼──────────────────────────────────────────────┤
+│ registrationVerifier │ "0xD54eEc801d111224CCf5D163e217e32cd6b19d4b" │
+│ mintVerifier         │ "0x2644524B895051A6151Bc5A362F41866abfbe7FC" │
+│ withdrawVerifier     │ "0x984d44babaf4c6f9C65fE006f023d9023979AcA3" │
+│ transferVerifier     │ "0x41DA487Ea87BA54B850790ecB2d23e4E691799B7" │
+│ babyJubJub           │ "0xe6f692F605c6d2BB10bD160253aD095d2d06B777" │
+│ registrar            │ "0x2B9DF1BdAE1f636aAf0c12D8Ad373B5FA74D6719" │
+│ encryptedERC         │ "0xd4D0B2b129487D92D05bf304e45718Fc820d39A3" │
+└──────────────────────┴──────────────────────────────────────────────┘

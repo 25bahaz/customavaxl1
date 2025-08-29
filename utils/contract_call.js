@@ -3,7 +3,7 @@ dotenv.config();
 
 import { readFileSync } from "fs";
 
-import { JsonRpcProvider,} from 'ethers/providers';
+import { JsonRpcProvider } from 'ethers/providers';
 import { Wallet } from 'ethers/wallet';
 import { Contract } from "ethers";
 
@@ -14,7 +14,6 @@ async function ContractCaller(rpc, pk, abiPath, contractAddr, funcOption, storeV
     const abi = JSON.parse(readFileSync(abiPath).toString());
 
     const contract = new Contract(contractAddr, abi, signer);
-    
     
     if (funcOption == 'store') { 
         const tx = await contract.store(storeValue); 
